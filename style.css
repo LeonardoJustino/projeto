@@ -25,13 +25,12 @@
 body * {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
+  
 }
 body{/* atalho-> shorthand -> background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
   
-  background-image:var(--bg-url);
-  background-repeat: no-repeat;
-  background-position:top  center;
-  background-size: cover;
+  background:var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 #container{
   width: 100%;
@@ -168,4 +167,13 @@ footer{
   text-align: center;
   padding: 24px 0;
   font-size: 14px;
+}
+/*media queries*/
+@media (min-width:700px) { /*de 700 pixels para cima você vai add as regras que estão ali dentro das chaves*/
+  :root{
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light{
+    --bg-ur: url(./assets/bg-desktop-light.jpg);
+  }
 }
