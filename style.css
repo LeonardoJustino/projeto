@@ -70,7 +70,6 @@ body{/* atalho-> shorthand -> background: url(./assets/bg-mobile.jpg) no-repeat 
   height:32px;
   background: white var(--switch-bg-url) no-repeat center;
   border:0;
-  border: 1px solid var(--text-color);
   border-radius: 50%;
  
   position: absolute; /*quando eu falo que o posicionamento dele vai ser absoluto ele vai fazer uma sobreposição de camadas*/
