@@ -34,8 +34,10 @@ body{/* atalho-> shorthand -> background: url(./assets/bg-mobile.jpg) no-repeat 
   background-size: cover;
 }
 #container{
-  width: 360px;
+  width: 100%;
   margin: auto;
+  max-width: 588px;
+  
   padding: 0 24px;
 }
 /*profile*/
