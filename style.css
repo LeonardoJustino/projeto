@@ -63,7 +63,7 @@ body{/* atalho-> shorthand -> background: url(./assets/bg-mobile.jpg) no-repeat 
   position: relative; 
   width: 64px;
   margin: 4px auto;
-  
+  border: 1px;
 }
 #switch button{
   width:32px; /*largura do icone*/
