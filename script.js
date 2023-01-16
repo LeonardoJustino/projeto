@@ -1,7 +1,7 @@
 function toggleMode(){
   /*vai ser executada toda vez que eu clicar no botão*/
   const html = document.documentElement /*documentElement é o html*/
-  html.classList.toggle("light")
+  html.classList.toggle('light')
 
   /*if é uma condicional, se essa condicional for verdadeira ela entra no código*/
   /*html.classList.contains('light') -> esse cara vai responder um tipo de dado booleano, ou vai ser true ou false, contain ou não contain */
