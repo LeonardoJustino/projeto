@@ -1,7 +1,7 @@
-function toggleMode(){
+function toggleMode() {
   /*vai ser executada toda vez que eu clicar no botão*/
   const html = document.documentElement /*documentElement é o html*/
-  html.classList.toggle('light')
+  html.classList.toggle("light")
 
   /*if é uma condicional, se essa condicional for verdadeira ela entra no código*/
   /*html.classList.contains('light') -> esse cara vai responder um tipo de dado booleano, ou vai ser true ou false, contain ou não contain */
@@ -25,11 +25,13 @@ function toggleMode(){
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute('alt', 'Leonardo sorrindo para a câmera com a camisa de basquete e um filtro do instagram.') //texto para alternativo para quando não carregar a foto no modo light
+    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute(
+      "alt",
+      "Leonardo sorrindo para a câmera com a camisa de basquete e um filtro do instagram."
+    ) //texto para alternativo para quando não carregar a foto no modo light
   } else {
     //se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/Ellipse.png")
   }
-            
 }
